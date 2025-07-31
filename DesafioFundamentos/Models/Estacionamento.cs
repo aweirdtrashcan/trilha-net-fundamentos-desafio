@@ -53,7 +53,7 @@ namespace DesafioFundamentos.Models
                     Console.WriteLine("Placa inválida");
                     return;
                 }
-                decimal valorTotal = 0; 
+                decimal valorTotal = precoInicial + precoPorHora * horas; 
 
                 veiculos.Remove(placa);
 
